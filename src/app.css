@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
     --color-primary : oklch(60% 0.118 184.704);
     --color-secondary: oklch(55.4% 0.046 257.417);
@@ -10,11 +12,11 @@
 }
 
 .navbar-fixed {
-    @apply fixed z-[9999] opacity-95 backdrop-blur-xl inset-shadow-sm inset-shadow-black/50;
+    @apply fixed z-[9999] opacity-95 dark:backdrop-blur-xl backdrop-blur-xl dark:bg-dark dark:opacity-50 inset-shadow-sm inset-shadow-black/50;
 }
 
 .hamburger {
-    @apply w-[30px] h-[2px] my-2 block bg-dark;
+    @apply w-[30px] h-[2px] my-2 block bg-dark dark:bg-white;
 }
 
 .hamburger-active > span:nth-child(1){
