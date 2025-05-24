@@ -22,7 +22,7 @@ window.onscroll = function() {
         hamburger.classList.remove('hamburger-active')
     } else {
         header.classList.remove('navbar-fixed')
-        toTop.classList.remove('flex')
+        // toTop.classList.remove('flex')
         toTop.classList.add('hidden')
     }
 }

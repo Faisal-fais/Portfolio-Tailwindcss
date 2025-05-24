@@ -9,6 +9,7 @@
     --color-dark : oklch(20.8% 0.042 265.755);
     --font-inter : "Inter", sans-serif;
     --breakpoint-xl : 1440px;
+    --breakpoint-xs : 30rem;
 }
 
 .navbar-fixed {
