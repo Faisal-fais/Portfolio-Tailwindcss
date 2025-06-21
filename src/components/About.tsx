@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section id="about" className="pt-36 pb-32 dark:bg-dark w-full">
-        <div className="w-full px-4 mx-auto">
+        <div className="container mx-auto">
             <div className="flex flex-wrap px-4">
                 <div className="w-full px-4 mb-10 lg:w-1/2">
                     <h4 className="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>

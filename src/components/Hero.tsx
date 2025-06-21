@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import HeroImg from "../img/HeroImg"
+import Heroimg from "../img/IMG-20240106-WA0009.png"
 
 const Hero = () => {
     const [invisible, setInvisible] = useState(false);
@@ -27,7 +27,7 @@ const Hero = () => {
     }
   return (
         <section id="home" className="dark:bg-dark w-full">
-        <div className=" container max-w-full px-4 mx-auto">
+        <div className=" container px-4 mx-auto">
             <div className="flex flex-wrap px-4">
                 <div className="w-full self-center px-4 lg:w-1/2 lg">
                     <h1 className="text-base font-semibold text-primary md:text-xl ">Hallo Semua 👋, saya <span className="block font-bold text-dark text-4xl lg:text-5xl dark:text-white">Faisal</span></h1>
@@ -43,7 +43,7 @@ const Hero = () => {
                                 <path fill="oklch(60% 0.118 184.704)" d="M35.2,-60C39.8,-45.1,33.6,-27,39.7,-12C45.7,2.9,63.9,14.8,62.1,20.1C60.3,25.4,38.5,24.2,24.8,24.6C11.1,25.1,5.5,27.3,-1.8,29.8C-9.2,32.3,-18.4,35.2,-24.9,32.4C-31.5,29.6,-35.4,21.2,-39.7,11.9C-44.1,2.7,-48.9,-7.4,-45.6,-13.9C-42.3,-20.5,-30.8,-23.5,-21.8,-37C-12.8,-50.5,-6.4,-74.5,4.4,-80.6C15.3,-86.7,30.6,-74.9,35.2,-60Z" transform="translate(100 100)" />
                               </svg>
                         </span>
-                        <HeroImg />
+                        <img src={Heroimg} alt="" className="relative w-[300px] mx-auto z-10"/>
                     </div>
                 </div>
             </div>

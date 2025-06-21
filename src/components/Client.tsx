@@ -1,3 +1,8 @@
+import Client1 from "../img/Clients/1.svg"
+import Client2 from "../img/Clients/2.svg"
+import Client3 from "../img/Clients/3.svg"
+import Client4 from "../img/Clients/4.svg"
+
 const Client = () => {
   return (
     <section id="clients" className="pt-36 dark:bg-slate-300 pb-32 w-full bg-slate-700">
@@ -13,16 +18,16 @@ const Client = () => {
             <div className="w-full px-4">
                 <div className="flex flex-wrap items-center justify-center">
                     <a href="#">
-                        <img src="src/img/Clients/1.svg" alt="" width="120px" className="client-logo" />
+                        <img src={Client1} alt="" width="120px" className="client-logo" />
                     </a>
                     <a href="#">
-                        <img src="src/img/Clients/2.svg" alt="" width="120px" className="client-logo" />
+                        <img src={Client2} alt="" width="120px" className="client-logo" />
                     </a>
                     <a href="#">
-                        <img src="src/img/Clients/3.svg" alt="" width="120px" className="client-logo" />
+                        <img src={Client3} alt="" width="120px" className="client-logo" />
                     </a>
                     <a href="#">
-                        <img src="src/img/Clients/4.svg" alt="" width="120px" className="client-logo" />
+                        <img src={Client4} alt="" width="120px" className="client-logo" />
                     </a>
                 </div>
             </div>

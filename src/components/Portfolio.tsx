@@ -1,3 +1,7 @@
+import Ecommerse from "../img/portfolio/2.jpg"
+import LandingPage from "../img/portfolio/1.jpg"
+import Technical from "../img/portfolio/3.jpg"
+import TributePage from "../img/portfolio/4.jpg"
 const Portfolio = () => {
   return (
     <section id="portfolio" className="pt-36 pb-16 w-full dark:bg-slate-800 bg-slate-100">
@@ -12,28 +16,28 @@ const Portfolio = () => {
             <div className="w-full px-4 flex flex-wrap justify-center">
                 <div className="mb-12 p-4 md:w-1/2">
                     <div className="rounded shadow-md overflow-hidden">
-                        <img src="src/img/portfolio/1.jpg" alt="landing page" width="600"/>
+                        <img src={LandingPage} alt="landing page" width="600"/>
                     </div>
                     <h3 className="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Landing Page Faisal</h3>
                     <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorum error eveniet?</p>
                 </div>
                 <div className="mb-12 p-4 md:w-1/2">
                     <div className="rounded shadow-md overflow-hidden">
-                        <img src="src/img/portfolio/2.jpg" alt="E-Commerce" width="600" />
+                        <img src={Ecommerse} alt="E-Commerce" width="600" />
                     </div>
                     <h3 className="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">E-Commerce</h3>
                     <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorum error eveniet?</p>
                 </div>
                 <div className="mb-12 p-4 md:w-1/2">
                     <div className="rounded shadow-md overflow-hidden">
-                        <img src="src/img/portfolio/3.jpg" alt="Technical Documentation" width="600" />
+                        <img src={Technical} alt="Technical Documentation" width="600" />
                     </div>
                     <h3 className="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Technical Documentation</h3>
                     <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorum error eveniet?</p>
                 </div>
                 <div className="mb-12 p-4 md:w-1/2">
                     <div className="rounded shadow-md overflow-hidden">
-                        <img src="src/img/portfolio/4.jpg" alt="Tribute Page" width="600"/>
+                        <img src={TributePage} alt="Tribute Page" width="600"/>
                     </div>
                     <h3 className="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Tribute Page</h3>
                     <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolorum error eveniet?</p>
