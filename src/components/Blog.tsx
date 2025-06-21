@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Blog = () => {
   return (
     <section id="blog" className="pt-36 pb-32 bg-slate-100 w-full dark:bg-dark">
