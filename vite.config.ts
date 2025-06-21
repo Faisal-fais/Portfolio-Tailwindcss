@@ -7,4 +7,13 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),tailwindcss()],
   base: '/Portfolio-Tailwindcss/',
-})
+  build: {
+    outDir: 'dist'
+  },
+  server: {
+    fs: {
+      allow: ['.']
+    }
+  }
+}
+)
